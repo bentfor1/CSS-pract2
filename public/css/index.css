@@ -1,1 +1,95 @@
+.lesson-four-task-one button:hover {
+  color: red;
+  background-color: yellow;
+}
 
+.lesson-four-task-two a:hover + .title {
+  background-color: green;
+}
+
+.lesson-four-task-three a:visited {
+  color: rgb(193, 193, 21);
+}
+
+.lesson-four-task-four a:link {
+  color: red;
+}
+
+.lesson-four-task-five .btn:active {
+  color: red;
+  background-color: black;
+}
+
+.lesson-four-task-six .btn:focus {
+  background-color: orange;
+}
+
+#target:target {
+  background-color: green;
+  color: white;
+}
+
+#checkbox:checked {
+  color: white;
+  background-color: blue;
+}
+
+#checkbox:checked ~ #target {
+  background-color: blue;
+  color: white;
+}
+:lang(uk) {
+  color: blue;
+}
+.lesson-four-task-ten input:enabled {
+  color: red;
+  background-color: yellow;
+}
+.lesson-four-task-eleven input:disabled {
+  background-color: yellow;
+}
+.lesson-four-task-twelve input:read-write {
+  background-color: yellow;
+}
+.lesson-four-task-thirteen input:read-only {
+  background-color: yellow;
+}
+.lesson-four-task-fourteen input:valid {
+  background-color: green;
+}
+.lesson-four-task-fourteen input:invalid {
+  background-color: red;
+}
+.lesson-four-task-fifteen input:optional {
+  color: red;
+}
+#message:optional {
+  background-color: red;
+}
+#quantity:out-of-range {
+  background-color: red;
+}
+.lesson-four-task-sixteen input:out-of-range {
+  color: red;
+}
+.lesson-four-task-seventeen input:in-range {
+  color: red;
+}
+.lesson-four-task-eighteen
+  input[placeholder='Введіть текст']:placeholder-shown {
+  color: red;
+}
+
+.lesson-four-task-eighteen
+  input[placeholder='Введіть текст']:not(
+    :focus
+  ):placeholder-shown {
+  color: red;
+}
+.lesson-four-task-nineteen:focus-within {
+  color: white;
+  background-color: yellow;
+}
+.lesson-four-task-twenty input:invalid {
+  background-color: red;
+}
